@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Expanding/Collapsing FAQs</title>
+	<link rel="stylesheet" type="text/css" href="JS_FAQ.css">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<ul class="nav nav-tabs">
+				<li ><a data-toggle="tab" href="#tab1" aria-selected="true" class="active">FAQ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="tab-content">
+				<div id="tab1" class="tab-pane fade show active">
+					<div class="accordion">
+                 <!-- 1 card -->
+						<div class="card">
+							<div class="card-header" id="One">
+								<a href="#collapseOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									<p class="mb-0">
+                                        How do I create a FAQ in HTML?
+									</p>
+								</a>
+							</div>
+							<div id="collapseOne" class="collapse" aria-labelledby="One" data-parent="#accordion">
+								<div class="card-body">
+                                    Before we begin you will have to create the following files HTML file, CSS file, and the last JavaScript file.
+								</div>
+							</div>
+						</div>
+                  <!-- 2 card-->      
+						<div class="card">
+							<div class="card-header" id="Two">
+								<a href="#collapseTwo" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								  <p class="mb-0">What are basic questions of JavaScript?</p>
+								</a>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="Two" data-parent="#accordion">
+								<div class="card-body">
+                                    Basic Javascript Interview Questions:
+                                    What are the different data types present in javascript? ...
+                                    Explain Hoisting in javascript. ...
+								</div>
+							</div>
+						</div>
+                   <!-- 3 card-->  
+						<div class="card">
+							<div class="card-header" id="Three">
+								<a href="#collapseThree" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<p class="mb-0">What is JavaScript short answer?</p>
+								</a>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="Three" data-parent="#accordion">
+								<div class="card-body">
+                                    JavaScript is a scripting language. It is different from Java language.
+                                    It is object-based, lightweight, cross-platform translated language.
+								</div>
+							</div>
+						</div>
+                   <!-- 4 card-->  
+                        <div class="card">
+							<div class="card-header" id="Four">
+								<a href="#collapseFour" class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								  <p class="mb-0">What is Arrow function in JavaScript?</p>
+								</a>
+							</div>
+							<div id="collapseFour" class="collapse" aria-labelledby="Four" data-parent="#accordion">
+								<div class="card-body">
+                                    JavaScript is a text-based programming language used both on the client-side and server-side
+                                    that allows you to make web pages interactive.
+								</div>
+							</div>
+						</div>
+                  <!-- 5 card-->  
+                        <div class="card">
+							<div class="card-header" id="Five">
+								<a href="#collapseFive" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								  <p class="mb-0">What is the main use of JavaScript?</p>
+								</a>
+							</div>
+							<div id="collapseFive" class="collapse" aria-labelledby="Five" data-parent="#accordion">
+								<div class="card-body">
+                                    Arrow function is one of the features introduced in the ES6 version of JavaScript. 
+                                    It allows you to create functions in a cleaner way compared to regular functions. 
+								</div>
+							</div>
+						</div>
+                 <!-- 6 card-->  
+                        <div class="card">
+							<div class="card-header" id="Six">
+								<a href="#collapseSix" class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+								  <p class="mb-0">What is constructor in JavaScript?</p>
+								</a>
+							</div>
+							<div id="collapseSix" class="collapse" aria-labelledby="Six" data-parent="#accordion">
+								<div class="card-body">
+                                    A constructor is a special function that creates and initializes an object instance of a class.
+								</div>
+							</div>
+						</div>
+                 <!-- 7 card-->  
+                        <div class="card">
+							<div class="card-header" id="Seven">
+								<a href="#collapseSeven" class="collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+								  <p class="mb-0">What are the datatypes in JavaScript?</p>
+								</a>
+							</div>
+							<div id="collapseSeven" class="collapse" aria-labelledby="Seven" data-parent="#accordion">
+								<div class="card-body">
+                                    JavaScript types --> Boolean type,Null type,Undefined type,Number type,BigInt type,String type
+								</div>
+							</div>
+						</div>
+                <!-- 8 card-->  
+                        <div class="card">
+							<div class="card-header" id="Eight">
+								<a href="#collapseEight" class="collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+								  <p class="mb-0">What is null JavaScript?</p>
+								</a>
+							</div>
+							<div id="collapseEight" class="collapse" aria-labelledby="Eight" data-parent="#accordion">
+								<div class="card-body">
+                                    'Null' is a keyword in JavaScript that signifies 'no value' or nonexistence of any value.
+                                    If you wish to shred a variable off its assigned value, you can simply assign 'null' to it.
+								</div>
+							</div>
+						</div>
+                 <!-- 9 card-->  
+                        <div class="card">
+							<div class="card-header" id="Nine">
+								<a href="#collapseNine" class="collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+								  <p class="mb-0">What is object in JavaScript?</p>
+								</a>
+							</div>
+							<div id="collapseNine" class="collapse" aria-labelledby="Nine" data-parent="#accordion">
+								<div class="card-body">
+                                    JavaScript, an object is a standalone entity, with properties and type. 
+                                    Compare it with a cup, for example. A cup is an object, with properties. 
+								</div>
+							</div>
+						</div>
+                <!-- 10 card-->  
+                        <div class="card">
+							<div class="card-header" id="Ten">
+								<a href="#collapseTen" class="collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+								  <p class="mb-0">What is map () in JavaScript?</p>
+								</a>
+							</div>
+							<div id="collapseTen" class="collapse" aria-labelledby="Ten" data-parent="#accordion">
+								<div class="card-body">
+                                    Definition and Usage. map() creates a new array from calling a function for every array element.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
