@@ -45,3 +45,10 @@ border-radius:0!important;
     position: absolute;
     right: 0;
 }
+#select{
+    display:block;
+	padding:15px;
+	color: #282425!important;
+    align-content: center;
+    margin-right: 15px;
+}
